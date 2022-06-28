@@ -69,6 +69,21 @@ body{
     font-size: 14px;
     line-height: 17px;
 }
+.search-box::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url('/photos/search.svg');
+    
+    background-size: 20px 20px;
+    background-position-x: calc(50% + 40px);
+    margin-left: -30px;
+    margin-top: -2px;
+}
+.search-box-text{
+    margin: 0;
+}
 .lang-vew-site {
     display: flex;
     justify-content: space-around;
@@ -156,18 +171,18 @@ section{
 /* .intro {
 }  */
 .intro-list {
-    padding-top: 10px;
+    margin: 0;
+    padding: 0;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 .intro-list-item {
     width: 393px;
     background: #F6F6F6;
     border-radius: 15px;
     margin: 10px;
-    margin-left: -40px;
+    margin-left: -3px;
 }
 .intro-link {
     text-decoration: none;
@@ -197,13 +212,102 @@ section{
     margin: -24px 0px 0px 21px;
     padding-bottom: 10px;
 }
+.intro-list-under::before{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-image: url('../photos/image-KV.jpg');
+    content: "";
+}
+/* .intro-list-under:nth-child(1){
+    /* width: 20px;
+    height: 20px;
+    display: block; */
+    /* content: ""; */
+*/
+.logo::before{
+    background-image: url('../photos/image-KV.jpg');
+}
+.logo-2::before{
+    background-image: url('../photos/image-G.jpg');
+}
+.logo-3::before{
+    background-image: url('../photos/image-X+.jpg');
+}
+.logo-4::before{
+    background-image: url('../photos/image-G.jpg');
+}
+.logo-5::before{
+    background-image: url('../photos/image.jpg');
+}
+.logo-6::before{
+    background-image: url('../photos/image-L.jpg');
+}
+.logo::before{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-image: url('../photos/image-KV.jpg');
+    content: "";
+}
+.intro-list-under:nth-child(5):before{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-image: url('../photos/image-L.jpg');
+    content: "";
+}
+.intro-list-under:nth-child(6):before{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-image: url('../photos/image1.jpg');
+    content: "";
+} */
+
+/* .intro-list-img{
+    margin-right: 10px;
+} */
+.news-under-text::before{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-image: url('../photos/image-KV.jpg');
+    content: "";
+}
+.logo-img::before{
+    background-image: url('../photos/image-KV.jpg');
+}
+.logo-img-2::before{
+    background-image: url('../photos-page2/Kolokol.png');
+}
+.logo-img-3::before{
+    background-image: url('../photos-page2/DNS.png');
+}
+.logo-img-4::before{
+    background-image: url('../photos-page2/Cash.png');
+}
+.logo-img-5::before{
+    background-image: url('../photos-page2/image 4.png');
+}
+.logo-img-6::before{
+    background-image: url('../photos-page2/Ko-logo.png');
+}
+.logo-img-7::before{
+    background-image: url('../photos-page2/Fe-logo.png');
+}
+.logo-img-8::before{
+    background-image: url('../photos/image-e.jpg');
+}
 .intro-list-under-texting{
     margin: 0;
+    margin-left: 10px;
 }
 .intro-list-under-text {
+    font-size: 12px;
     margin: 0;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-left: 10px;
+    color: #5E5F61;
 }
 .enter {
     padding-top: 20px;
@@ -304,6 +408,24 @@ section{
     display: flex;
     align-items: center;
     margin-top: 17px;
+}
+.news-under-text::before{
+    width: 20px;
+    height: 20px;
+    display: block;
+    content: "";
+}
+.news-under-text::before:nth-child(1){
+    background-image: url('../photos/image-KV.jpg');
+}
+.news-under-text::before:nth-child(1){
+    background-image: url('../photos/image-KV.jpg');
+}
+.news-under-text::before:nth-child(1){
+    background-image: url('../photos/image-KV.jpg');
+}
+.news-under-text::before:nth-child(1){
+    background-image: url('../photos/image-KV.jpg');
 }
  .news-under-text-img {
     margin-right: 10px;
