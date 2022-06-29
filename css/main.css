@@ -83,9 +83,8 @@ body{
     display: flex;
     align-items: center;
 }
-.search-box {
-
-}
+/* .search-box {
+} */
 .input{
     border-color: transparent;
     width: 275px;
@@ -498,9 +497,8 @@ section{
     margin: 0;
 }
 
-.news-right {
-    
-}
+/* .news-right {   
+} */
 .news-right-main{
     align-self: flex-start;
     background: #F6F6F6;
@@ -531,10 +529,10 @@ section{
     margin: 0;
     margin-top: 10px;
 }
- .olmos-link {
+ /* .olmos-link {
 }
 .olmos-img{
-}
+} */
 .footer-top {
     display: block;
 }
@@ -630,7 +628,7 @@ section{
 }
 .search-section {
     display: flex;
-    align-items: baseline;
+    align-items: flex-start;
 }
 .section-left-text {
     font-weight: 500;
@@ -657,6 +655,9 @@ section{
     border-radius: 10px;
     padding: 18px 0px 18px 20px;
 }
+.input-first{
+    margin-right: 0px;
+}
 .input-email {
     margin-bottom: 10px;
     background: #FFFFFF;
@@ -676,13 +677,15 @@ section{
     border-radius: 10px;
     border-color: #7297ef;
     margin-top: 20px;
-}
-.contact-bottom {
+
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
+}
+.contact-link {
+ 
 }
 .input-text {
     width: 696px;
@@ -702,8 +705,8 @@ section{
 .contact-item {
     margin-bottom: 23px;
 }
-.search-section-right {
-}
+/* .search-section-right {
+} */
 .contact-heading {
     margin: 0px;
     font-weight: 500;
