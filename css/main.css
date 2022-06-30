@@ -679,7 +679,7 @@ section{
 .box-forward{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
 }
 .btn {
     padding: 17px 30px;
