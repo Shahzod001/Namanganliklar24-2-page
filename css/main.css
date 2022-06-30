@@ -552,10 +552,8 @@ section{
     margin-top: 100px;
     background-color: #7297ef;
 }
-.footer-logo {
-    background-color: transparent;
-    display: inline-block;
-}
+/* .footer-logo {
+} */
 .footer-img{
     margin-top: 40px;
     margin-bottom: 15px;
@@ -734,8 +732,8 @@ section{
     line-height: 19px;
     color: #000000;
 }
-.intro {
-}
+/* .intro {
+} */
 .tesla-child{
     display: flex;
 }
@@ -743,12 +741,12 @@ section{
     width: 797px;
     margin-right: 10px;
 }
-.intro-list-under-texting {
+/* .intro-list-under-texting {
 }
 .tesla-logo {
-}
-.intro-list-under-text {
-}
+} */
+/* .intro-list-under-text {
+} */
 .tesla-page-heading {
     margin: 0;
     margin-top: 30px;
@@ -775,8 +773,8 @@ section{
     margin-top: 50px;
     border-bottom: 1px solid #d2d2d2;
 }
-.section-interest {
-}
+/* .section-interest {
+} */
 .interest-heading {
     font-weight: 500;
     font-size: 24px;
@@ -829,12 +827,12 @@ section{
     display: flex;
     align-items: center;
 }
-.intro-list-under {
+/* .intro-list-under {
 }
 .logo-5 {
-}
-.intro-list-under-text {
-}
+} */
+/* .intro-list-under-text {
+} */
 .logo-4::before{
     background-image: url('../photos/image1.jpg');
 }
