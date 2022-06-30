@@ -764,20 +764,29 @@ section{
     margin-right: 10px;
     width: 343px;
     background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid #eee;
     border-radius: 10px;
     padding: 18px 0px 18px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
 }
 .input-first{
     margin-right: 0px;
+    border: 1px solid #eee;
 }
 .input-email {
     margin-bottom: 10px;
     background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid #eee;
     border-radius: 10px;
     width: 696px;
     padding: 18px 0px 18px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
 }
 .box-forward{
     display: -webkit-box;
@@ -809,9 +818,15 @@ section{
 .input-text {
     width: 696px;
     background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid #eee;
     border-radius: 10px;
-    padding: 18px 0px 143px 20px;
+    padding: 18px 0px 0px 20px;
+    resize: none;
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #817d7d;
 }
 .contact-list{
     margin: 0;
